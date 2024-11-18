@@ -1,0 +1,231 @@
+/* App.css */
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.layout {
+  display: flex;
+}
+.sidebar.collapsed {
+  width: 80px; /* Collapsed width */
+}
+
+.sidebar-menu {
+  background: none !important;
+}
+
+.icon{
+    margin-left: 99%;
+}
+.sidebar-menu .p-panelmenu-header {
+  padding: 12px 20px; /* Padding for spacing */
+  // color: #fff; /* Text color */
+  background-color: transparent; /* No background color by default */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar-menu .p-panelmenu-header:hover,
+.sidebar-menu .p-panelmenu-header-active {
+  background-color: #003a75; /* Background color on hover or active */
+  // color: #ffffff; /* Text color on hover or active */
+}
+
+.sidebar-menu .p-panelmenu-header .p-panelmenu-icon {
+  // color: #ffffff; /* Icon color */
+}
+
+.sidebar-menu .p-panelmenu-header-active .p-panelmenu-icon,
+.sidebar-menu .p-panelmenu-header:hover .p-panelmenu-icon {
+  // color: #ffffff; /* Icon color on hover/active */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  // background-color: #f8f9fa;
+}
+.content.expanded {
+  margin-left: 10px; /* Expanded sidebar space */
+}
+
+.content.collapsed {
+  margin-left: 60px; /* Collapsed sidebar space */
+}
+/* Header Styles */
+.header {
+  background-color: #fff;
+  padding: 20px 40px;
+  height: 80px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* Sidebar Styles */
+// .sidebar {
+//   width: 250px;
+//   height: 100vh;
+//   // background-color: #f4f4f4; 
+//   padding: 10px;
+// }
+
+.sidebar-menu {
+  background: none !important; 
+}
+
+.sidebar-menu .p-panelmenu-header {
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 15px; 
+}
+
+.sidebar-menu .p-panelmenu .p-panelmenu-header span {
+  margin-right: 10px;
+}
+
+/* Content Styles */
+.content {
+  flex: 1;
+  padding: 20px;
+  // background-color: #fff;
+}
+
+.layout {
+  display: flex;
+}
+
+.layout .content {
+  flex: 1;
+  padding: 20px;
+}
+
+// .sidebar {
+//   width: 250px;
+//   height: 100vh;
+//   background-color: #003a7f; 
+//   padding: 10px;
+// }
+
+.sidebar-menu {
+  background: none !important;
+}
+
+.sidebar-menu .p-panelmenu-header {
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 15px; 
+}
+
+.sidebar-menu .p-panelmenu-header-active {
+  background-color: #ffffff !important; 
+  color: #003a7f !important; 
+}
+
+/* Optional: Add styles for inactive items */
+.sidebar-menu .p-panelmenu-header {
+  color: #fff;
+}
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #003a7f; 
+  padding: 10px;
+}
+
+.sidebar-menu {
+  background: none !important; 
+}
+
+.sidebar-menu .p-panelmenu-header-active {
+  background-color: #ffffff !important; 
+  color: #003a7f !important;
+}
+
+// .sidebar-menu .p-panelmenu-header {
+//   color: #fff;
+//   background-color: transparent !important; 
+// }
+
+.sidebar-menu .p-panelmenu-header:hover {
+  background-color: #1d57a8; 
+}
+
+.p-panelmenu .p-panelmenu-header-content {
+  background-color: transparent !important;
+  border:none !important;
+}
+.p-panelmenu .p-panelmenu-header-content {
+  background-color: transparent !important;
+}
+
+// .p-panelmenu .p-menuitem-active {
+//   background-color: #ffffff !important;
+//   color: #003a7f !important;
+// }
+
+
+.p-panelmenu .p-menuitem-link {
+  text-decoration: none !important;
+}
+
+// .sidebar-menu .p-menuitem-link {
+//   color: white !important;
+// }
+
+// .sidebar-menu .p-menuitem-link.active-menuitem {
+//   background-color: white !important;
+//   color: black !important;
+// }
+// .sidebar-menu .p-panelmenu-header-link {
+//   // color: white !important;
+//   background-color: transparent !important;
+//   text-decoration:none;
+// }
+
+// .sidebar-menu .p-panelmenu-header-link {
+//   // color: white  !important;
+//   background-color: transparent  !important;
+//   transition: background-color 0.3s, color 0.3s  !important;
+// }
+.sidebar-menu .p-panelmenu-header-active .p-panelmenu-header-link {
+  background-color: white !important;
+  color: #003a7f !important;
+}
+.sidebar-menu .collapsed-menu-item .p-menuitem-text {
+  display: none; /* Hide text when collapsed */
+}
+.p-dropdown {
+  position: absolute;
+  top: 50px; 
+  right: 10px; 
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.p-dropdown-list {
+  padding: 10px;
+}
+
+.p-dropdown-item {
+  cursor: pointer;
+}
+
+// .p-dropdown-list .p-dropdown-item {
+//   padding: 10px 20px;
+//   transition: background-color 0.3s ease; 
+// }
+
+// .p-dropdown-list .p-dropdown-item:hover {
+//   background-color: #007bff; 
+//   color: black; 
+// }
+// .p-dropdown-list .p-dropdown-item {
+//   color:black !important;
+//   padding: 10px 20px; /* Adjust the padding as per your requirement */
+//   transition: background-color 0.3s ease; /* Smooth background transition */
+// }
+
+// .p-dropdown-list .p-dropdown-item:hover {
+//   background-color: #007bff; 
+//   color: white; /* Optional: Change the text color on hover */
+// }
